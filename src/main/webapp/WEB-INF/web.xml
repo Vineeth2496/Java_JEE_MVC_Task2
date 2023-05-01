@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app >
+  <display-name>com.mvc1_ser</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+     <servlet-name>Reg_ctrl1</servlet-name>
+     <servlet-class>Reg_ctrl1</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Reg_ctrl1</servlet-name>
+     <url-pattern>/Reg_ctrl1</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+     <servlet-name>log_ctrl2</servlet-name>
+     <servlet-class>log_ctrl2</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>log_ctrl2</servlet-name>
+     <url-pattern>/log_ctrl2</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+     <servlet-name>view_ctrl3</servlet-name>
+     <servlet-class>view_ctrl3</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>view_ctrl3</servlet-name>
+     <url-pattern>/view_ctrl3</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>update_ctrl4</servlet-name>
+     <servlet-class>update_ctrl4</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>update_ctrl4</servlet-name>
+     <url-pattern>/update_ctrl4</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>end</servlet-name>
+     <servlet-class>end</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>end</servlet-name>
+     <url-pattern>/end</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
